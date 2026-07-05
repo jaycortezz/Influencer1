@@ -1,0 +1,15 @@
+{
+  "model": "wavespeed-ai/flux-dev",
+  "defaults": {
+    "size": "1024*1024",
+    "num_inference_steps": 28,
+    "guidance_scale": 3.5,
+    "num_images": 1,
+    "seed": -1
+  },
+  "jobs": [
+    { "prompt": "A majestic mountain landscape at sunset, cinematic lighting" },
+    { "prompt": "A cozy coffee shop interior, warm lighting, photorealistic" },
+    { "prompt": "Portrait of a fashion influencer in a modern city, golden hour" }
+  ]
+}
