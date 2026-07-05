@@ -1,6 +1,6 @@
 {
   "model": "wavespeed-ai/flux-kontext-dev",
-  "image": "PASTE_DIRECT_IMAGE_URL_HERE",
+  "image": "https://i.ibb.co/WWwgc0wb/IMG-2597.png",
   "defaults": {
     "num_inference_steps": 28,
     "guidance_scale": 2.5,
