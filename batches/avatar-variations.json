@@ -3,7 +3,8 @@
   "defaults": {
     "images": ["https://i.ibb.co/YVTqx2b/IMG-2601.png"],
     "output_format": "png",
-    "resolution": "2k"
+    "resolution": "2k",
+    "aspect_ratio": "9:16"
   },
   "jobs": [
     { "prompt": "Same woman, same face, hair down, wearing a plain oversized crewneck with no visible text or logos, ordering at a coffee shop counter holding a to-go cup, warm morning light, candid natural smile, direct on-camera flash photography, photorealistic" },
