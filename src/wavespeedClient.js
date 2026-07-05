@@ -4,6 +4,24 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+export async function estimatePrice({ model, apiKey, input }) {
+  const res = await fetch(`${BASE_URL}/model/pricing`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${apiKey}`,
+    },
+    body: JSON.stringify({ model_id: model, inputs: input }),
+  });
+  const json = await res.json().catch(() => ({}));
+  if (!res.ok) {
+    throw new Error(
+      `WaveSpeed pricing lookup failed (HTTP ${res.status}): ${json.message || JSON.stringify(json)}`
+    );
+  }
+  return json.data; // { model_id, unit_price, currency }
+}
+
 export async function submitPrediction({ model, apiKey, input }) {
   const res = await fetch(`${BASE_URL}/${model}`, {
     method: "POST",
