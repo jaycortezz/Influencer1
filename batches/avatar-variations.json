@@ -1,13 +1,9 @@
 {
-  "model": "wavespeed-ai/flux-kontext-dev",
-  "image": "https://i.ibb.co/WWwgc0wb/IMG-2597.png",
+  "model": "google/nano-banana-pro/edit",
   "defaults": {
-    "num_inference_steps": 28,
-    "guidance_scale": 2.5,
-    "num_images": 1,
-    "seed": -1,
+    "images": ["https://i.ibb.co/WWwgc0wb/IMG-2597.png"],
     "output_format": "png",
-    "enable_safety_checker": true
+    "resolution": "2k"
   },
   "jobs": [
     { "prompt": "Same woman, same face and hairstyle, wearing an oversized plain graphic t-shirt with no visible text or logos, leaning against a motorcycle at a gas station at dusk, glowing neon signage in the background, direct on-camera flash photography, candid off-duty model pose, windswept hair, photorealistic" },
