@@ -10,9 +10,9 @@
     "enable_safety_checker": true
   },
   "jobs": [
-    { "prompt": "Same woman, same face and hairstyle, wearing a casual white t-shirt, standing outdoors on a city street, natural daylight, photorealistic" },
-    { "prompt": "Same woman, same face and hairstyle, wearing a professional navy blazer, plain studio background, confident smile, photorealistic headshot" },
-    { "prompt": "Same woman, same face and hairstyle, wearing an athletic outfit, at an outdoor gym, dynamic pose, photorealistic" },
-    { "prompt": "Same woman, same face and hairstyle, wearing an elegant black dress, softly lit indoor lounge background, three-quarter pose, photorealistic" }
+    { "prompt": "Same woman, same face and hairstyle, wearing an oversized plain graphic t-shirt with no visible text or logos, leaning against a motorcycle at a gas station at dusk, glowing neon signage in the background, direct on-camera flash photography, candid off-duty model pose, windswept hair, photorealistic" },
+    { "prompt": "Same woman, same face and hairstyle, wearing a plain white tank top with no visible text or logos, sitting at a street food stall at night, playful exaggerated candid expression, holding chopsticks over a bowl of noodles, harsh on-camera flash lighting, cluttered background posters, photorealistic" },
+    { "prompt": "Same woman, same face and hairstyle, wearing an oversized plain black hoodie and sweatpants with no visible text or logos, standing in a convenience store snack aisle under fluorescent lights, holding an iced drink, playful smirk, finger near lips, direct on-camera flash photography, photorealistic" },
+    { "prompt": "Same woman, same face and hairstyle, wearing a plain cropped hoodie and pleated mini skirt with no visible text or logos, crouching in a dim parking garage, small crossbody bag, dramatic overhead fluorescent lighting, moody candid stance, looking back over shoulder, photorealistic" }
   ]
 }
