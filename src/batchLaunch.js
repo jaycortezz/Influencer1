@@ -6,6 +6,7 @@ import path from "node:path";
 import { loadEnvFile } from "./env.js";
 import { submitPrediction, pollPrediction } from "./wavespeedClient.js";
 import { runPool } from "./pool.js";
+import { resolveImageInput } from "./imageInput.js";
 
 const DEFAULT_MODEL = "wavespeed-ai/flux-dev";
 
@@ -57,8 +58,12 @@ async function main() {
 
   const batch = JSON.parse(await readFile(args.batchFile, "utf8"));
   const model = args.model || batch.model || DEFAULT_MODEL;
-  const defaults = batch.defaults || {};
+  const defaults = { ...(batch.defaults || {}) };
   const jobs = batch.jobs || [];
+
+  if (batch.image) {
+    defaults.image = resolveImageInput(batch.image, path.dirname(args.batchFile));
+  }
 
   if (jobs.length === 0) {
     console.error(`No jobs found in ${args.batchFile}`);
@@ -70,7 +75,11 @@ async function main() {
 
   if (args.dryRun) {
     jobs.forEach((job, i) => {
-      console.log(`[dry-run] job ${i}: ${JSON.stringify({ ...defaults, ...job })}`);
+      const input = { ...defaults, ...job };
+      if (input.image && input.image.length > 80) {
+        input.image = `${input.image.slice(0, 60)}... (${input.image.length} chars)`;
+      }
+      console.log(`[dry-run] job ${i}: ${JSON.stringify(input)}`);
     });
     return;
   }
