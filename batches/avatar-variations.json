@@ -1,31 +1,21 @@
 {
   "model": "google/nano-banana-pro/edit",
   "defaults": {
-    "images": ["https://i.ibb.co/YVTqx2b/IMG-2601.png"],
-    "output_format": "png",
+    "images": ["https://i.ibb.co/WWwgc0wb/IMG-2597.png"],
+    "output_format": "jpeg",
     "resolution": "2k",
     "aspect_ratio": "9:16"
   },
   "jobs": [
-    { "prompt": "Same woman, same face, hair down, wearing a plain oversized crewneck with no visible text or logos, ordering at a coffee shop counter holding a to-go cup, warm morning light, candid natural smile, direct on-camera flash photography, photorealistic" },
-    { "prompt": "Same woman, same face, hair down, wearing a plain zip-up jacket with no visible text or logos, standing in a grocery store checkout line holding snacks, candid bored-but-cute expression, harsh fluorescent lighting, photorealistic" },
-    { "prompt": "Same woman, same face, hair down, wearing a plain cropped tee with no visible text or logos, leaning against a car hood at a car wash, holding a sponge, candid playful pose, bright daylight, photorealistic" },
-    { "prompt": "Same woman, same face, hair down, wearing a plain fitted top with no visible text or logos, riding a Ferris wheel at a carnival at night, holding cotton candy, colorful ride lights, candid joyful expression, photorealistic" },
-    { "prompt": "Same woman, same face, hair down, wearing a plain oversized cardigan with no visible text or logos, browsing vinyl records in a vintage record store, candid relaxed focus, warm shop lighting, photorealistic" },
-    { "prompt": "Same woman, same face, hair down, wearing a plain silk robe with no visible text or logos, walking down a hotel hallway holding a room key card, candid casual glance back, warm hallway lighting, on-camera flash photography, photorealistic" },
-    { "prompt": "Same woman, same face, hair down, wearing a plain oversized robe with no visible text or logos, standing on a city balcony at sunrise holding a coffee mug, soft golden light, candid sleepy smile, photorealistic" },
-    { "prompt": "Same woman, same face, hair down, wearing plain athletic shorts and a tank top with no visible text or logos, sitting at a roller skating rink lacing up skates, colorful rink lighting, candid excited expression, photorealistic" },
-    { "prompt": "Same woman, same face, hair down, wearing a plain sundress with no visible text or logos, standing in a botanical garden greenhouse surrounded by plants, candid genuine smile, soft diffused natural light, photorealistic" },
-    { "prompt": "Same woman, same face, hair down, wearing a plain oversized hoodie with no visible text or logos, holding a slice of pizza at a late-night pizza shop counter, candid playful bite, harsh on-camera flash photography, photorealistic" },
-    { "prompt": "Same woman, same face, hair down, wearing a plain graphic-free jacket with no visible text or logos, playing a machine at a retro arcade, colorful screen glow lighting her face, candid focused expression, photorealistic" },
-    { "prompt": "Same woman, same face, hair down, wearing a plain linen blouse with no visible text or logos, sitting at a rooftop garden brunch table with sunglasses on, candid relaxed smile, bright natural daylight, photorealistic" },
-    { "prompt": "Same woman, same face, hair down, wearing a plain tank top with no visible text or logos, sitting in the driver's seat at a red light with sunglasses on, candid selfie-style pose, warm afternoon light through windshield, photorealistic" },
-    { "prompt": "Same woman, same face, hair down, wearing a plain salon cape with no visible text or logos, sitting in a blow-dry bar salon chair getting her hair styled, candid relaxed expression, bright salon mirror lighting, photorealistic" },
-    { "prompt": "Same woman, same face, hair down, wearing a plain oversized flannel with no visible text or logos, sitting at a picnic table in a food truck park holding a taco, string lights overhead, candid happy expression, on-camera flash photography, photorealistic" },
-    { "prompt": "Same woman, same face, hair down, wearing a plain polo shirt with no visible text or logos, holding a putter at a mini golf course, colorful course lighting, candid playful smirk, photorealistic" },
-    { "prompt": "Same woman, same face, hair down, wearing a plain graphic-free top with no visible text or logos, laughing candidly inside a photo booth with a striped curtain background, harsh on-camera flash photography, photorealistic" },
-    { "prompt": "Same woman, same face, hair down, wearing a plain slip dress with no visible text or logos, standing in a thrift store fitting room holding hangers of clothes, candid mirror pose, warm dressing room lighting, photorealistic" },
-    { "prompt": "Same woman, same face, hair down, wearing a plain fitted long-sleeve top with no visible text or logos, balancing candidly on an ice skating rink, arms out, colorful rink lighting, genuine laughing expression, photorealistic" },
-    { "prompt": "Same woman, same face, hair down, wearing a plain graphic-free tee with no visible text or logos, holding a pool cue at a dive bar pool table, dim moody bar lighting, candid confident smirk, on-camera flash photography, photorealistic" }
+    { "prompt": "Same woman, same face, hair pulled back in a high bun, wearing a plain sports bra and leggings with no visible text or logos, standing in a gym mirror mid workout, candid confident smirk, harsh gym lighting, shot on iPhone, casual phone camera quality, slightly imperfect candid framing" },
+    { "prompt": "Same woman, same face, hair in a sleek ponytail, wearing plain boxing wraps and a cropped tank top with no visible text or logos, at a boxing gym wrapping her hands, focused candid expression, moody gym lighting, shot on iPhone, natural phone camera quality" },
+    { "prompt": "Same woman, same face, hair up in a low bun, wearing a plain fitted top with no visible text or logos, sitting at a sushi restaurant counter holding chopsticks, candid laughing expression, warm restaurant lighting, shot on iPhone, casual phone snapshot quality" },
+    { "prompt": "Same woman, same face, hair up in a claw clip, wearing a plain one-piece swimsuit with no visible text or logos, lounging in a rooftop pool cabana holding a cocktail, oversized sunglasses, candid relaxed smile, bright daylight, shot on iPhone, natural phone camera quality" },
+    { "prompt": "Same woman, same face, hair pulled back in a sleek updo, wearing a plain slip dress with no visible text or logos, standing at a hidden speakeasy bar entrance at night, candid mysterious smile, moody neon signage, shot on iPhone, natural nighttime phone photo with slight grain" },
+    { "prompt": "Same woman, same face, hair up in a high ponytail, wearing a plain oversized blazer with no visible text or logos, standing in a museum art gallery, candid contemplative pose, soft gallery lighting, shot on iPhone, casual phone camera quality" },
+    { "prompt": "Same woman, same face, hair up in a messy bun, wearing a plain oversized sweater with no visible text or logos, sitting in a quiet library study nook holding a coffee cup, candid focused expression, warm ambient lighting, shot on iPhone, natural phone snapshot quality" },
+    { "prompt": "Same woman, same face, hair up in a high bun, wearing a plain sundress with no visible text or logos, standing at a roadside farm stand holding fresh fruit, candid genuine smile, bright natural daylight, shot on iPhone, casual phone camera quality" },
+    { "prompt": "Same woman, same face, hair up in pigtail buns, wearing a plain graphic-free jacket with no visible text or logos, laughing candidly while riding bumper cars at an amusement park, colorful ride lights, motion blur, shot on iPhone, natural nighttime phone camera photo" },
+    { "prompt": "Same woman, same face, hair up in a high ponytail, wearing a plain crop top with no visible text or logos, holding an ice cream cone at an ice cream shop counter, candid playful smile, bright shop lighting, shot on iPhone, casual phone snapshot quality" }
   ]
 }
