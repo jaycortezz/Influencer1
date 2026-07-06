@@ -1,7 +1,7 @@
 {
   "model": "google/nano-banana-pro/edit",
   "defaults": {
-    "images": ["https://i.ibb.co/WWwgc0wb/IMG-2597.png"],
+    "images": ["https://i.ibb.co/tMs1pYv5/IMG-2597.png"],
     "output_format": "jpeg",
     "resolution": "2k",
     "aspect_ratio": "9:16"
