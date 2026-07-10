@@ -3,14 +3,14 @@
   "defaults": {
     "images": ["https://i.ibb.co/3PYLn1k/IMG-2601.png"],
     "output_format": "jpeg",
-    "resolution": "2k",
+    "resolution": "1k",
     "aspect_ratio": "9:16"
   },
   "jobs": [
-    { "prompt": "Same woman, same face, hair down, wearing a plain oversized hoodie, close-up selfie lying in bed, casual just-woke-up expression, soft morning light, shot on iPhone, raw unfiltered phone photo quality, story-style snapshot" },
-    { "prompt": "Same woman, same face, hair down, wearing plain sneakers and jeans, first-person point-of-view shot looking down at her own feet while walking on a sidewalk, casual candid moment, natural daylight, shot on iPhone, raw unfiltered phone photo quality, story-style snapshot" },
-    { "prompt": "Same woman, same face, hair down, wearing a plain top, selfie taken using a car sun visor mirror, casual candid expression, natural daylight through the windshield, shot on iPhone, raw unfiltered phone photo quality, story-style snapshot" },
-    { "prompt": "Same woman, same face, hair down, wearing a plain sweater, first-person point-of-view shot holding a coffee cup with a cafe table and window light in view, casual candid moment, shot on iPhone, raw unfiltered phone photo quality, story-style snapshot" },
-    { "prompt": "Same woman, same face, hair down, wearing a plain top, close-up bathroom mirror selfie with no makeup, casual relaxed expression, soft bathroom lighting, shot on iPhone, raw unfiltered phone photo quality, story-style snapshot" }
+    { "prompt": "Same woman, same face, hair down, wearing plain workout leggings and a sports bra with no visible text or logos, full-length mirror selfie against a dance studio mirror wall, natural visible skin texture with pores and slight imperfections, no artificial skin smoothing, no over-sharpening, slightly soft focus, subtle grain, ordinary low-quality iPhone camera snapshot, casual candid pose" },
+    { "prompt": "Same woman, same face, hair down, wearing a plain going-out outfit with no visible text or logos, full-length mirror selfie in a hotel room, natural visible skin texture with pores and slight imperfections, no artificial skin smoothing, no over-sharpening, slightly soft focus, subtle grain, ordinary low-quality iPhone camera snapshot, casual candid pose" },
+    { "prompt": "Same woman, same face, hair down, wearing plain gym clothes with no visible text or logos, mirror selfie in a gym locker room, natural visible skin texture with pores and slight imperfections, no artificial skin smoothing, no over-sharpening, slightly soft focus, subtle grain, ordinary low-quality iPhone camera snapshot, casual candid pose" },
+    { "prompt": "Same woman, same face, hair down, wearing a plain slip dress with no visible text or logos, mirror selfie in an upscale boutique dressing room, soft warm lighting, natural visible skin texture with pores and slight imperfections, no artificial skin smoothing, no over-sharpening, slightly soft focus, subtle grain, ordinary low-quality iPhone camera snapshot, casual candid pose" },
+    { "prompt": "Same woman, same face, hair down, wearing a plain fitted top with no visible text or logos, mirror selfie in a department store fitting room holding a garment on a hanger, natural visible skin texture with pores and slight imperfections, no artificial skin smoothing, no over-sharpening, slightly soft focus, subtle grain, ordinary low-quality iPhone camera snapshot, casual candid pose" }
   ]
 }
