@@ -43,11 +43,25 @@ Default to specific, styled pieces — not generic filler:
 - Every prompt includes: natural visible skin texture with pores and slight imperfections, no artificial skin smoothing, no over-sharpening, subtle grain, ordinary phone camera quality
 - Language should read as "shot on iPhone" / candid, never "photorealistic professional photography" or DSLR-coded terms.
 
+## Camera logic — who's actually taking the photo
+
+Before writing a shot, decide who's holding the camera and make the pose consistent with that:
+- **Selfie-style shots** (car/rideshare, mirror pics, most solo candid shots): her arm must be visibly extended toward/up to the camera, like she's actually holding the phone. Don't describe a selfie setup and then pose her with both hands free/at her sides — that reads as a third-person photo with no photographer, which doesn't make sense.
+- **Third-person candid shots** (a friend took this, a stranger snapped it, a paparazzi-style street shot): fine to have both hands free for posing, since someone else is holding the camera. Only use this framing when it's specified or clearly implied (e.g. a club photo where a friend is obviously taking it) — default to selfie logic otherwise, since most of this content is meant to be self-shot.
+
 ## Pose & expression
 
 - Confident, caught-off-guard energy: genuine laughs, glancing off-camera, mid-motion — not stiff posed smiles.
 - Full-body shots should include real body language (legs crossed, weight on one hip, leaning) not just standing straight-on.
+- **Never default to "arms/hands at her sides"** — it's boring and reads as a mugshot. Give her something to do with her hands: touching her hair, adjusting a strap, holding a drink/bag/phone, hand on hip, leaning on a railing/wall, hand near her face. Stay realistic — don't force a pose that fights the setting — but always give a specific, deliberate hand placement.
 - Match specific reference poses precisely when given one (exact hand placement, gaze direction, hip angle) — don't approximate.
+
+## Hairstyles
+
+Two established "hair up" looks, pick based on context:
+- **Sleek/polished**: hair slicked back with a center part into a low bun or ponytail, smooth with no flyaways — reads as put-together/elevated (going out, professional, elegant settings).
+- **Casual/voluminous**: looser bun or ponytail with some face-framing pieces out — reads as everyday/relaxed (errands, home, daytime).
+Default to sleek/polished unless the setting calls for something more casual.
 
 ## Locations
 
