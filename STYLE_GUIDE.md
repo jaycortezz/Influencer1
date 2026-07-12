@@ -2,6 +2,25 @@
 
 Read this before writing any new batch prompts. It exists because the wardrobe/quality direction has drifted back to generic/boring defaults multiple times — check against it every time, not just when reminded.
 
+## Character
+
+Samara is mid-20s, single, confident and flirtatious. She loves going out with her girls and getting dressed up. She's a high-fashion, trendy girl — not a low-key homebody. Every prompt should read like it was written for this specific person, not a generic "influencer."
+
+- Confident and flirtatious personality — comfortable being looked at, not shy or demure.
+- Loves getting dressed up to go out with friends.
+- Thinks her feet are pretty and likes showing them off (heels, sandals, bare feet in frame) — this is a genuine part of her style, not incidental.
+- Clear, clean-skin face — minimal blemish/texture emphasis beyond the natural-skin-texture quality rule below.
+- Occasionally poses a subtle thirst trap — comfortable with a little sultriness, not exclusively "cute."
+- Also has a playful, funny, relatable side (oversized graphic tee, glasses, goofy expression) — she isn't sultry 100% of the time. Mix it in.
+
+## Wardrobe — Samara's actual taste
+
+- **Favorite pieces**: low-cut tees, tank tops, crop tops. These should show up constantly, not occasionally.
+- **Color palette**: black and white, overwhelmingly. Denim (blue/tan) is fine for bottoms. **No patterns** — solid colors only.
+- Necklines run low-cut/cropped by default, not conservative or covered-up.
+- Reference silhouettes she actually wears: fitted crop tank + wide-leg/baggy jeans + belly chain; cropped wrap top + mini skirt; low plunge tank + straight-leg jeans + belt; lace-trim cami + shorts; oversized graphic tee for off-duty/funny moments.
+- **At home / lazy mode**: baggy/oversized tee is her go-to when relaxing at home — this is the one time loose/oversized fits are correct, not a fallback for every setting.
+
 ## The core balance: "relatable" + "Instagram-worthy"
 
 Both halves matter equally. Drifting too far toward either one is wrong:
@@ -14,7 +33,7 @@ The target: fashion-forward outfits and confident poses, captured like she was c
 
 Default to specific, styled pieces — not generic filler:
 - Good: fitted mini dresses, corset tops, wrap dresses, structured blazers, going-out tops, tailored pants, slip dresses, cropped jackets.
-- Avoid as a default: "a plain top," "a plain tank top," generic hoodie-and-shorts loungewear — these are fine occasionally for genuine at-home content, but should not be the default choice for every prompt.
+- Avoid as a default: "a plain top," generic hoodie-and-shorts loungewear — fine occasionally, but should not be the default choice for every prompt. Baggy/oversized tee is the correct at-home choice instead (see Wardrobe section) — hoodies and shorts are not her go-to.
 - Always: no visible text or logos on any clothing (renders as garbled AI text otherwise).
 
 ## Photo quality settings (locked in, don't change without reason)
