@@ -55,6 +55,7 @@ Before writing a shot, decide who's holding the camera and make the pose consist
 - Full-body shots should include real body language (legs crossed, weight on one hip, leaning) not just standing straight-on.
 - **Never default to "arms/hands at her sides"** — it's boring and reads as a mugshot. Give her something to do with her hands: touching her hair, adjusting a strap, holding a drink/bag/phone, hand on hip, leaning on a railing/wall, hand near her face. Stay realistic — don't force a pose that fights the setting — but always give a specific, deliberate hand placement.
 - Match specific reference poses precisely when given one (exact hand placement, gaze direction, hip angle) — don't approximate.
+- **Facial expression variety — this is where confirmed-good batches earned it.** A plain "genuine smile" is not the default. Mix expressions across a batch: seductive/sultry, tasteful smirk, confident smoulder, occasional duck lips, alongside genuine smiles/laughs. She's flirtatious — the face should carry that as often as the pose does, not just fall back on "candid smile" every time.
 
 ## Hairstyles
 
