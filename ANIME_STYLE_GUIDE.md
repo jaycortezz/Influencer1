@@ -83,9 +83,12 @@ One-line, love-letter style, understated. Examples: "I'd lose every game just to
 
 ## Technical settings
 
-- **Model**: `wavespeed-ai/prefect-pony-xl` — WaveSpeed's dedicated anime/illustration model
-  (SDXL-based). Do NOT use `google/nano-banana-pro/edit` or `wavespeed-ai/flux-kontext-dev` for
-  this project — those are the photoreal models used for Samara.
+- **Model**: `wavespeed-ai/flux-dev` — general-purpose text-to-image Flux model, $0.012/image.
+  Not anime-dedicated (unlike `wavespeed-ai/prefect-pony-xl`, tried first and swapped out) — leans
+  more painterly/photoreal on the same prompts, so watch for style drift and lean harder on the
+  cel-shaded/hand-painted/grain language in the prompt if it starts looking too clean or too real.
+  Do NOT use `google/nano-banana-pro/edit` or `wavespeed-ai/flux-kontext-dev` — those are the
+  photoreal editing models used for Samara.
 - Text-to-image only — this model does not take a source `image` input. Every job is generated
   from the prompt alone.
 - `size`: `"832*1472"` (9:16 portrait, close approximation — SDXL needs multiples of 64).

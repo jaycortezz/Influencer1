@@ -1,5 +1,5 @@
 {
-  "model": "wavespeed-ai/prefect-pony-xl",
+  "model": "wavespeed-ai/flux-dev",
   "defaults": {
     "size": "832*1472",
     "num_inference_steps": 30,
