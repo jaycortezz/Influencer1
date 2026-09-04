@@ -1,0 +1,18 @@
+{
+  "model": "wavespeed-ai/prefect-pony-xl",
+  "defaults": {
+    "size": "832*1472",
+    "num_inference_steps": 30,
+    "guidance_scale": 6,
+    "num_images": 1,
+    "seed": -1,
+    "output_format": "png",
+    "negative_prompt": "modern digital anime, glossy clean digital shading, 3D render, photorealistic, western cartoon style, oversaturated colors, bright flat even lighting, sharp vector-clean linework, sketchy unfinished linework, text, watermark, signature, extra limbs, deformed hands, bad anatomy"
+  },
+  "jobs": [
+    { "prompt": "A couple sitting close together on a fire escape at night, city skyline blurred and rain-streaked in the background, her head resting on his shoulder, quiet intimate mood, distant neon glow reflecting off wet metal, 1990s Japanese anime screencap style, cel-shaded flat color, thick imperfect linework, muted desaturated color palette, deep moody shadows, dim atmospheric lighting, grainy analog film texture, subtle scan-line artifacting, hand-painted background art, retro OVA aesthetic" },
+    { "prompt": "A couple walking hand in hand down a narrow neon-lit alley at night, mostly seen from behind, puddles reflecting pink and blue signage, steam rising from a street vent, 1990s Japanese anime screencap style, cel-shaded flat color, thick imperfect linework, muted desaturated color palette, deep moody shadows, dim atmospheric lighting, grainy analog film texture, subtle scan-line artifacting, hand-painted background art, retro OVA aesthetic" },
+    { "prompt": "A couple sharing a single umbrella in heavy rain outside a dimly lit train station at night, foreheads almost touching, soft streetlamp glow catching the rain, 1990s Japanese anime screencap style, cel-shaded flat color, thick imperfect linework, muted desaturated color palette, deep moody shadows, dim atmospheric lighting, grainy analog film texture, subtle scan-line artifacting, hand-painted background art, retro OVA aesthetic" },
+    { "prompt": "A couple seated across from each other in a dim retro diner booth late at night, a single overhead lamp casting warm light between them, city lights reflected faintly in the window glass, quiet conversation, 1990s Japanese anime screencap style, cel-shaded flat color, thick imperfect linework, muted desaturated color palette, deep moody shadows, dim atmospheric lighting, grainy analog film texture, subtle scan-line artifacting, hand-painted background art, retro OVA aesthetic" }
+  ]
+}
