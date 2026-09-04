@@ -17,8 +17,28 @@ illustration, not photoreal.
   shoujo energy.
 - Subjects: always a couple (two characters), framed together in the scene — avoid solo-character
   shots for this project.
-- Settings: night scenes, rain, neon reflections, dim interiors, quiet in-between moments (walking,
-  sitting, waiting) rather than high-action.
+- Settings: **night only, locked.** Daytime/pastoral scenes drift toward a Ghibli look regardless
+  of style keywords in the prompt — don't write daytime scenes for this project at all, since the
+  model will fight the style rather than follow it.
+- Liminal urban night spaces are the setting bank: alleys, rooftops, laundromats, parking garages,
+  stairwells. These consistently outperform (see Framing & composition below) — draw from this
+  list rather than open/scenic locations.
+
+## Framing & composition (locked — from analytics)
+
+- **Close or medium framing wins.** Intimate couple shots with the emotional beat readable in the
+  first second dramatically outperform wide establishing shots (1,000+ views vs. under 500 on wide
+  shots). Faces/upper bodies should fill most of the frame — this is not optional, it's the single
+  biggest performance lever.
+- **Physical closeness/touch is required**: leaning heads, held hands, foreheads touching, pressed-close
+  framing. Distant or separately-posed figures underperform even in the right setting.
+- **Static camera, subtle motion only.** If/when this pipeline extends to video, keep motion strength
+  low (20–30%) for intimate/still scenes — over-animation breaks the aesthetic. For the current
+  text-to-image jobs, describe the shot as still/static, not mid-action.
+- **What underperforms** (avoid): wide shots where subjects read small in frame; anything where the
+  emotional beat isn't legible immediately on scroll-stop.
+- **Single dominant light source per scene** — neon blue, warm orange, or sickly green. Pick one per
+  job and name it explicitly in the prompt; don't mix multiple light colors in one scene.
 
 ## Visual style (bake into every prompt)
 
@@ -39,13 +59,27 @@ defaults:
   night cinematography (the kind of look associated with shows like Cowboy Bebop, Ghost in the
   Shell, Perfect Blue, Trigun).
 
-## Standard suffix
+## Prompt template (locked)
 
-Append this (or a close variation) to the end of every prompt so the style stays consistent:
+**Style descriptors always go first, before the scene/subject** — not appended at the end. Order:
 
-> 1990s Japanese anime screencap style, cel-shaded flat color, thick imperfect linework, muted
-> desaturated color palette, deep moody shadows, dim atmospheric lighting, grainy analog film
-> texture, subtle scan-line artifacting, hand-painted background art, retro OVA aesthetic
+> 1990s Japanese anime screencap, dark moody atmosphere, night, cel-shaded, hand-painted
+> backgrounds, grainy film texture, muted desaturated colors, subtle VHS scan lines, subtle
+> chromatic aberration, single dominant [neon blue / warm orange / sickly green] light source,
+> [scene — pick from the liminal-space bank], [subject — close/medium framing, physical touch,
+> static camera]
+
+Note on aspect ratio / stylization: don't write `--ar 9:16` or `--style raw` into the prompt text —
+those are Midjourney flags and this pipeline runs on WaveSpeed's API, which doesn't parse them; they'd
+just render as literal garbled text in the image. The 9:16 framing is already handled by the `size`
+field (`"832*1472"`) and a moderate `guidance_scale` keeps it from over-stylizing — see Technical
+settings below.
+
+## Captions (locked pattern)
+
+One-line, love-letter style, understated. Examples: "I'd lose every game just to watch you win,"
+"wherever you're taking me, I already feel safe." Avoid generic/descriptive captions (no "date night
+✨" type lines) — the caption should read like an intimate thought, not a description of the image.
 
 ## Technical settings
 
